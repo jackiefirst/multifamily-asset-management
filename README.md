@@ -10,6 +10,34 @@ This case study showcases a complete, end-to-end analysis of acquiring and manag
 
 ---
 
+## 🚀 How to Navigate This Repository
+
+1. **Underwrite the Deal**  
+   - Open `/models/acquisition_underwriting_model.xlsx`  
+   - Review the “Assumptions” tab for purchase, financing, rent, vacancy, and expense inputs.  
+   - Check the “Cash Flow” tab for Year 1–10 projections, and “Returns” for IRR & Equity Multiple.  
+
+2. **Track Quarterly Performance**  
+   - In `/models/asset_management_dashboard.xlsx`, open “Actual vs Pro Forma” to see Q1–Q4 simulated results.  
+   - Go to the “Dashboard” sheet to view visual comparisons of EGI, NOI, Cash Flow, DSCR, and Occupancy.  
+
+3. **Analyze Exit Scenarios**  
+   - Open `/models/scenario_analysis_model.xlsx`.  
+   - Compare Base Case (hold 10 years), Refinance at Year 5, and CapEx + Sale at Year 7.  
+   - Review each sheet’s summary IRR and Equity Multiple to understand tradeoffs.  
+
+4. **Review Investor Materials**  
+   - `/writeups/investment_memo.pdf`: Learn how to structure a professional deal overview.  
+   - `/writeups/quarterly_asset_update_Q4.pdf`: See how to communicate quarterly results and variances.  
+   - `/writeups/exit_strategy_decision_memo.pdf`: Examine a concise recommendation memo comparing exit options.  
+
+5. **Inspect Supporting Data & Visuals**  
+   - `/data/rent_comparables.csv`: Check how rent comps inform rent assumptions.  
+   - `/data/property_assumptions.json`: See how inputs are structured for modeling.  
+   - `/visuals/`: Browse charts that highlight key metrics (IRR graph, dashboard screenshots, cash flow charts).  
+
+---
+
 
 ### 1. `/models/`  
 - **`acquisition_underwriting_model.xlsx`**  
@@ -64,34 +92,6 @@ Contains exported images of key charts:
 - **`irr_graph.png`** – IRR vs. hold period from scenario analysis.  
 - **`dashboard_screenshot.png`** – Screenshot of the five-chart dashboard.  
 - **`cashflow_comparison_chart.png`** – Visual comparing annual or quarterly cash flows (Pro Forma vs. Actual).  
-
----
-
-## 🚀 How to Navigate This Repository
-
-1. **Underwrite the Deal**  
-   - Open `/models/acquisition_underwriting_model.xlsx`  
-   - Review the “Assumptions” tab for purchase, financing, rent, vacancy, and expense inputs.  
-   - Check the “Cash Flow” tab for Year 1–10 projections, and “Returns” for IRR & Equity Multiple.  
-
-2. **Track Quarterly Performance**  
-   - In `/models/asset_management_dashboard.xlsx`, open “Actual vs Pro Forma” to see Q1–Q4 simulated results.  
-   - Go to the “Dashboard” sheet to view visual comparisons of EGI, NOI, Cash Flow, DSCR, and Occupancy.  
-
-3. **Analyze Exit Scenarios**  
-   - Open `/models/scenario_analysis_model.xlsx`.  
-   - Compare Base Case (hold 10 years), Refinance at Year 5, and CapEx + Sale at Year 7.  
-   - Review each sheet’s summary IRR and Equity Multiple to understand tradeoffs.  
-
-4. **Review Investor Materials**  
-   - `/writeups/investment_memo.pdf`: Learn how to structure a professional deal overview.  
-   - `/writeups/quarterly_asset_update_Q4.pdf`: See how to communicate quarterly results and variances.  
-   - `/writeups/exit_strategy_decision_memo.pdf`: Examine a concise recommendation memo comparing exit options.  
-
-5. **Inspect Supporting Data & Visuals**  
-   - `/data/rent_comparables.csv`: Check how rent comps inform rent assumptions.  
-   - `/data/property_assumptions.json`: See how inputs are structured for modeling.  
-   - `/visuals/`: Browse charts that highlight key metrics (IRR graph, dashboard screenshots, cash flow charts).  
 
 ---
 
