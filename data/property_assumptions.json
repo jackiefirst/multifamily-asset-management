@@ -1,0 +1,12 @@
+{
+  "purchase_price": 1260000,
+  "closing_costs_percent": 0.02,
+  "loan_to_value": 0.7,
+  "interest_rate": 0.06,
+  "loan_term_years": 30,
+  "units": 16,
+  "monthly_rent_per_unit": 900,
+  "vacancy_rate": 0.05,
+  "expense_ratio": 0.35,
+  "annual_rent_growth": 0.02
+}
